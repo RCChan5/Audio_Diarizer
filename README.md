@@ -84,7 +84,7 @@ For each file, an embedding is computed per speaker turn (>0.5 s) and averaged i
 Per file, a `*_transcript.txt`:
 
 ```
-TRANSCRIPT: interview_03.amr
+TRANSCRIPT: call.amr
 ============================================================
 
 SPEAKER LEGEND (cross-file consistent labels)
@@ -94,11 +94,11 @@ SPEAKER LEGEND (cross-file consistent labels)
 ------------------------------------------------------------
 
 [PERSON_A]
-  [00:03 → 00:08]  Hello everyone, welcome to today's meeting.
-  [00:09 → 00:15]  We'll be covering Q3 results and the roadmap.
+  [00:03 → 00:08]  Hello is this John?
+  [00:09 → 00:15]  We’ve been trying to reach you about your car’s extended warranty.
 
 [PERSON_C]
-  [00:16 → 00:22]  Thanks for having me. I'll start with the financials.
+  [00:16 → 00:22]  Sorry wrong number.
 
 ============================================================
 SPEAKER SUMMARY
