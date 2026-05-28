@@ -1,0 +1,20 @@
+# Audio Diarizer Requirements
+# Install with: pip install -r requirements.txt
+
+# Web UI
+gradio>=4.0
+
+# Transcription (CTranslate2 backend — ~4× faster than openai-whisper on CPU)
+faster-whisper
+
+# Deep learning backend
+torch>=2.0
+torchaudio>=2.0
+
+# Speaker diarization
+pyannote.audio>=3.1
+
+# Audio processing — ffmpeg called directly via subprocess (no python wrapper needed)
+
+# Utilities
+numpy
